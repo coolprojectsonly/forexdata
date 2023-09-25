@@ -1,0 +1,92 @@
+body {
+  background-color: azure;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+th {
+  background-color: #888;
+  color: white;
+}
+
+tr:hover {
+  background-color: #333;
+}
+td:hover {
+  background-color: green;
+  color: white;
+}
+/* .tableOne td, th{
+  border: 1px solid #ccc;
+  
+}
+
+.tableTwo td, th{
+  border: 1px solid #ccc;
+  
+} */
+.tableContainer {
+  display: flex;
+  width: 100vw;
+  height: 100%;
+  justify-content: center;
+  align-items: left;
+  flex-direction: row;
+}
+
+.tableTwo tr:nth-child(even) {
+  background-color: #ccc;
+}
+
+.tableTwo tr:nth-child(odd) {
+  background-color: beige;
+}
+
+.tableOne tr:nth-child(even) {
+  background-color: rgb(106, 106, 230);
+}
+
+.tableOne tr:nth-child(odd) {
+  background-color: rgb(61, 87, 166);
+}
+
+h1 {
+  text-align: center;
+
+}
+
+.buttonContainer {
+  display: flex;
+  width: 100vw;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+button {
+  padding: 6px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: white;
+  margin-top: 0;
+  cursor: pointer;
+  border: none;
+}
+
+.middleButton {
+  padding: 6px 30px;
+}
+
+button:disabled {
+  background-color: rgb(170, 153, 187);
+}
